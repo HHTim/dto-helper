@@ -13,7 +13,7 @@ plugins {
 // 設定 Group ID，通常是公司的網域倒過來寫
 group = "com.catincold"
 // 設定版本號
-version = "1.3.3"
+version = "1.3.4"
 
 // 設定依賴庫的倉庫來源
 repositories {
@@ -46,7 +46,7 @@ tasks {
     // 設定 PatchPluginXml 任務，這是用來更新 plugin.xml 內的版本號等資訊
     patchPluginXml {
         sinceBuild.set("232") // 支援的最低 IntelliJ build版號 (對應 2023.2)
-        untilBuild.set("255.*") // 支援的最高 IntelliJ build版號 (對應 2025.x)
+        untilBuild.set("253.*") // 支援的最高 IntelliJ build版號 (對應 2025.3)
     }
 
     // 當我們執行 ./gradlew runIde 時的設定

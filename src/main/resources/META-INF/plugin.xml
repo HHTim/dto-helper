@@ -46,6 +46,10 @@
     ]]></description>
     
     <change-notes><![CDATA[
+    <h3>v1.3.4</h3>
+    <ul>
+        <li><b>Fix</b>: Corrected <code>until-build</code> configuration for Marketplace validation compatibility.</li>
+    </ul>
     <h3>v1.3.3</h3>
     <ul>
         <li><b>New Branding</b>: Rebranded to CatInCold with a new cute cat icon!</li>
