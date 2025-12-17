@@ -1,6 +1,6 @@
 <!-- 這是插件的核心設定檔，相當於插件的身分證 -->
 <idea-plugin>
-  <version>1.3.2</version>
+  <version>1.3.3</version>
   <idea-version since-build="232" until-build="255.*" />
   <!-- 全域唯一的 ID，建議使用 package 命名風格 -->
   <id>com.catincold.dtohelper</id>
@@ -41,6 +41,13 @@
     <p>
         <b>Zero Friction Design</b>: Designed to keep your hands on the keyboard and your flow uninterrupted.
     </p>]]></description>
+  <change-notes><![CDATA[<h3>v1.3.3</h3>
+    <ul>
+        <li><b>New Branding</b>: Rebranded to CatInCold with a new cute cat icon!</li>
+        <li><b>Smart Builder Chain</b>: Now supports interactive variable renaming and smart default values for primitives.</li>
+        <li><b>Enhanced Completion</b>: All-Getters generation now works seamlessly with code style settings.</li>
+        <li><b>Fixes</b>: Resolved invalid variable types in generated code and removed legacy example.com references.</li>
+    </ul>]]></change-notes>
   <!-- 依賴宣告，代表我們依賴 IntelliJ 的 Java 模組功能 -->
   <depends>com.intellij.modules.platform</depends>
   <depends>com.intellij.java</depends>

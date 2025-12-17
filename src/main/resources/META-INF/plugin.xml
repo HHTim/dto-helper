@@ -44,6 +44,16 @@
         <b>Zero Friction Design</b>: Designed to keep your hands on the keyboard and your flow uninterrupted.
     </p>
     ]]></description>
+    
+    <change-notes><![CDATA[
+    <h3>v1.3.3</h3>
+    <ul>
+        <li><b>New Branding</b>: Rebranded to CatInCold with a new cute cat icon!</li>
+        <li><b>Smart Builder Chain</b>: Now supports interactive variable renaming and smart default values for primitives.</li>
+        <li><b>Enhanced Completion</b>: All-Getters generation now works seamlessly with code style settings.</li>
+        <li><b>Fixes</b>: Resolved invalid variable types in generated code and removed legacy example.com references.</li>
+    </ul>
+    ]]></change-notes>
 
     <!-- 依賴宣告，代表我們依賴 IntelliJ 的 Java 模組功能 -->
     <depends>com.intellij.modules.platform</depends>

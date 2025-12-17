@@ -13,7 +13,7 @@ plugins {
 // 設定 Group ID，通常是公司的網域倒過來寫
 group = "com.catincold"
 // 設定版本號
-version = "1.3.2"
+version = "1.3.3"
 
 // 設定依賴庫的倉庫來源
 repositories {
