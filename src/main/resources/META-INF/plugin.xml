@@ -46,6 +46,11 @@
     ]]></description>
     
     <change-notes><![CDATA[
+    <h3>v1.3.5</h3>
+    <ul>
+        <li><b>Fix</b>: Fixed missing plugin icon in settings.</li>
+        <li><b>Improvement</b>: Updated target IntelliJ version to 2025.3 for better compatibility.</li>
+    </ul>
     <h3>v1.3.4</h3>
     <ul>
         <li><b>Fix</b>: Corrected <code>until-build</code> configuration for Marketplace validation compatibility.</li>

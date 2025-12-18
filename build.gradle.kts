@@ -13,7 +13,7 @@ plugins {
 // 設定 Group ID，通常是公司的網域倒過來寫
 group = "com.catincold"
 // 設定版本號
-version = "1.3.4"
+version = "1.3.5"
 
 // 設定依賴庫的倉庫來源
 repositories {
@@ -30,7 +30,7 @@ kotlin {
 intellij {
     // 設定我們要開發針對哪個版本的 IntelliJ IDEA
     // "2023.2.5" 是指 IntelliJ IDEA 2023.2.5 版本
-    version.set("2023.2.5")
+    version.set("2025.3")
     
     // 設定插件類型，"IC" 代表 IntelliJ Community (免費版)
     // 這樣我們可以確保插件在免費版也能運作
